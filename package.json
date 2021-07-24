@@ -1,0 +1,35 @@
+{
+  "name": "openvino-migrate-uniswapv2",
+  "version": "1.0.0",
+  "description": "Migration from Uniswap V1 to Uniswap V2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openvino/openvino-migrate-uniswapv2.git"
+  },
+  "keywords": [
+    "migration",
+    "uniswap",
+    "blockchain"
+  ],
+  "author": "Jordi Estapé",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openvino/openvino-migrate-uniswapv2/issues"
+  },
+  "homepage": "https://github.com/openvino/openvino-migrate-uniswapv2#readme",
+  "dependencies": {
+    "@ethersproject/address": "^5.4.0",
+    "@ethersproject/contracts": "^5.4.0",
+    "@ethersproject/providers": "^5.4.2",
+    "@ethersproject/solidity": "^5.4.0",
+    "@uniswap/sdk": "^3.0.3",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.2.6"
+  }
+}
